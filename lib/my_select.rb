@@ -6,7 +6,6 @@ def my_select(collection)
    if yield(item)
      new_coll << item
    end
-  # binding.pry
  end
  new_coll
 end
