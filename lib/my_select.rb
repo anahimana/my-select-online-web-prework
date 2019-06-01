@@ -3,7 +3,7 @@ def my_select(collection)
  # your code here!
  new_coll = []
  collection.each do |item|
-   new_coll << yield(item)
+  # new_coll << yield(item)
    new_coll << item
   # binding.pry
  end
