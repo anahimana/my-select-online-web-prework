@@ -4,7 +4,7 @@ def my_select(collection)
  new_coll = []
  collection.each do |item, index|
    new_coll << yield(item)
-   
+   binding.pry
  end
  new_coll
 end
