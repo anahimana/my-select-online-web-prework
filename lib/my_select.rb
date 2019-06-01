@@ -2,7 +2,7 @@ require 'pry'
 def my_select(collection)
  # your code here!
  new_coll = []
- collection.each do |item, index|
+ collection.each do |item|
    new_coll << yield(item)
    binding.pry
  end
