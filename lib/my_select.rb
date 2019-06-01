@@ -1,6 +1,8 @@
 def my_select(collection)
  # your code here!
+ new_coll = []
  collection.each do |item|
+   
 end
 
 
