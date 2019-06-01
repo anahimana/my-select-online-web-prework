@@ -1,9 +1,10 @@
-
+require 'pry'
 def my_select(collection)
  # your code here!
  new_coll = []
  collection.each do |item, index|
    new_coll << yield(item)
+   
  end
  new_coll
 end
